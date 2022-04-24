@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "nav-local":"/components/nav-local/nav"
+  },
+  "navigationStyle": "custom",
+  "disableScroll": true
+}

@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<!-- 自定义导航栏 -->
+<view>
+  <nav-local></nav-local>
+</view>
+
+<!--背景图片-->
+<view>
+  <image mode="" src="/img/bg1.jpeg"></image>
+</view>
+
+<view class='video-box'>
+  <view class='title'>本地视频播放器</view>
+
+  <view class="chosevedio" bindtap="chooseVideo">选择视频</view>
+
+  <video id="myVideo" src="{{src}}" enable-danmu danmu-btn controls>
+  </video>
+
+  <view class="btnview">
+    <button plain="true" size='mini' bindtap="reset" style="color: white;border:2px solid skyblue">重放</button>
+    <button plain="true" size='mini' bindtap="play" style="color: white;border:2px solid skyblue">播放</button>
+    <button plain="true" size='mini' bindtap="pause" style="color: white;border:2px solid skyblue">暂停</button>
+    <button plain="true" size='mini' bindtap="saveVideo" style="color: white;border:2px solid skyblue">保存视频</button>
+  </view>
+
+  <input class="input1" placeholder='请在此处填写弹幕内容' value="{{msg}}" bindblur="bindInputBlur" />
+
+  <button plain="true" type='primary' bindtap="bindSendDanmu" style="margin-top: 30rpx;color: white;border:2px solid skyblue">发送弹幕</button>
+</view>

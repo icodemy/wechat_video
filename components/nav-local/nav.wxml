@@ -1,0 +1,16 @@
+<!--components/nav/nav.wxml-->
+<view style="padding-top:{{cover_state ? bar_Height + 44 : 0}}px;">
+ <view class='status-bar'>
+    <view style="padding-top:{{bar_Height}}px;">
+    <view style="text-align: center;">
+    <button plain="true" hover-class="mybtn" bindtap="btn1"
+    style="width: 175rpx;border: 0;color: {{testbtn1}};display:inline-flex;">本地
+    </button>	
+      <button plain="true" bindtap="btn2"
+      style='width: 175rpx;border: 0;color: {{testbtn2}};display:inline-flex;'>推荐
+      </button>
+    </view>
+      
+    </view>
+  </view>
+</view>

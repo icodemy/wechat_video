@@ -1,0 +1,16 @@
+page, mp-video-swiper {
+  padding: 0;
+  margin: 0;
+}
+
+page{
+  /* background-color:darkorchid; */
+  width: 100%;
+  height: 100%;
+}
+
+mp-video-swiper {
+  background-color: burlywood;
+  width: 100%;
+  height: 100%;
+}

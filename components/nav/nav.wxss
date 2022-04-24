@@ -1,0 +1,17 @@
+/* components/nav/nav.wxss */
+/* 顶部导航 */
+.status-bar {
+  width: 100%;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+
+}
+
+.btn {
+  width: 165rpx;
+  border: 0;
+  color: white;
+  display: inline-flex;
+}
+
